@@ -1,0 +1,11 @@
+import random
+
+def u():
+    a = random.randint(1, 100)
+    b = random.randint(1, 100)
+    c = a * b
+    d = a + b
+    e = c / d
+    return e
+
+print(u())

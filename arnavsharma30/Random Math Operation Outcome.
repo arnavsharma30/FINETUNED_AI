@@ -1,0 +1,14 @@
+import random
+
+def f(a, b):
+    x = a + b
+    y = a * b
+    z = a ** b
+    return x, y, z
+
+num1 = random.randint(1, 10)
+num2 = random.randint(1, 10)
+
+result = f(num1, num2)
+
+print(result)

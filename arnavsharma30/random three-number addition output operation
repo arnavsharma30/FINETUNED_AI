@@ -1,0 +1,17 @@
+import random
+
+def r():
+    n = random.randint(1, 10)
+    return n
+
+def t(a, b):
+    c = a + b
+    return c
+
+x = r()
+y = r()
+z = r()
+
+result = t(t(x, y), z)
+
+print(f"The result of the random math operation is: {result}")

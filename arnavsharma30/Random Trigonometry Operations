@@ -1,0 +1,15 @@
+import random
+import math
+
+def g():
+    n = random.randint(1, 100)
+    f = math.factorial(n)
+    r = random.random()
+    c = math.cos(r)
+    s = math.sin(r)
+    a = math.acos(c)
+    b = math.asin(s)
+    return a, b
+
+x, y = g()
+print(x, y)

@@ -1,0 +1,9 @@
+from random import randint
+
+def f(a):
+    return a + randint(1, 10)
+
+lst = [randint(1, 100) for _ in range(10)]
+result = list(map(f, lst))
+
+print(result)

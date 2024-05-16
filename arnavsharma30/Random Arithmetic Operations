@@ -1,0 +1,21 @@
+import random
+
+def m(a,b):
+    c = a * b
+    return c
+
+def n(x,y,z):
+    d = x + y + z
+    return d
+
+a = random.randint(1,10)
+b = random.randint(1,10)
+x = random.randint(1,10)
+y = random.randint(1,10)
+z = random.randint(1,10)
+
+e = m(a,b)
+f = n(x,y,z)
+
+print(e)
+print(f)

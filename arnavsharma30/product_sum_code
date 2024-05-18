@@ -1,0 +1,17 @@
+import random as r
+
+def uniq_code():
+    a = r.randint(1, 10)
+    b = r.randint(1, 10)
+    
+    c = a * b
+    
+    d = a + b
+    e = a - b
+    
+    f = c + d - e
+    
+    return f
+
+result = uniq_code()
+print(result)

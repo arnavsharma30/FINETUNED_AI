@@ -1,0 +1,16 @@
+from random import randint
+
+def f(a, b):
+    x = a * b
+    y = a / b
+    z = a + b
+    w = a - b
+    
+    return x, y, z, w
+
+num1 = randint(1, 10)
+num2 = randint(1, 10)
+
+res = f(num1, num2)
+
+print(res)

@@ -1,0 +1,20 @@
+import random 
+
+def y(v):
+    if v == 1:
+        return 1
+    else:
+        return v * y(v - 1)
+
+def x():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    
+    c = a + b
+    d = a * b
+    e = y(a)
+    
+    return c, d, e
+
+result = x()
+print(result)

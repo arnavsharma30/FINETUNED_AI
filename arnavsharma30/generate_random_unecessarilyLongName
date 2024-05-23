@@ -1,0 +1,10 @@
+import random
+
+def u():
+    n = random.randint(1, 10)
+    s = 'u'
+    for i in range(n):
+        s += 'n'
+    return s
+
+print(u())

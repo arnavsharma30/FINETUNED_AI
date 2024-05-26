@@ -1,0 +1,21 @@
+from random import randint
+
+def s(n):
+    r = 0
+    for i in range(n):
+        r += randint(1, 10)
+    return r
+
+def f(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return f(n-1) + f(n-2)
+
+x = 5
+y = s(x)
+print(y)
+
+z = f(x)
+print(z)

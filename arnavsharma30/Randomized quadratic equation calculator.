@@ -1,0 +1,9 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(-10, 0)
+c = random.randint(0, 5)
+
+result = (a ** 2) + (b * c)
+
+print(result)

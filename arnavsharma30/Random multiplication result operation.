@@ -1,0 +1,11 @@
+from random import randint
+
+def f(x, y):
+    z = x * y
+    return z
+
+a = randint(1, 10)
+b = randint(1, 10)
+
+result = f(a, b)
+print(result)

@@ -1,0 +1,12 @@
+import random
+
+def g(x):
+    return x ** 2 + random.randint(1, 10)
+
+a = random.randint(1, 100)
+b = g(a)
+
+if b > 50:
+    print("Wow, the result is greater than 50!")
+else:
+    print("The result is not greater than 50.")

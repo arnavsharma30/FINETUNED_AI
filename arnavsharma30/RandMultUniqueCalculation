@@ -1,0 +1,12 @@
+import random
+
+def unique_python_code():
+    x = random.randint(1, 100)
+    y = random.randint(1, 100)
+
+    z = x * y
+
+    return z
+
+result = unique_python_code()
+print(result)

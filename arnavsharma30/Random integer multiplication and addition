@@ -1,0 +1,7 @@
+import random
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+z = (x * 2) + (y * 3)
+print(z)

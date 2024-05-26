@@ -1,0 +1,10 @@
+import random
+
+def f(x):
+    return x**2 + 2*x - 3
+
+values = [random.randint(1, 10) for _ in range(5)]
+result = [f(val) for val in values]
+
+print("Original values:", values)
+print("Result after applying function f:", result)

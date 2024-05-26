@@ -1,0 +1,16 @@
+import random
+import math
+
+a = random.randint(1, 100)
+b = random.randint(1, 100)
+c = random.randint(1, 100)
+
+x = math.sqrt(a**2 + b**2)
+y = math.pow(c, 2)
+
+if x > y:
+    result = x - y
+else:
+    result = y - x
+
+print(result)

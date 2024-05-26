@@ -1,0 +1,13 @@
+import random
+
+def generate_random_code():
+    x = random.randint(1, 100)
+    y = random.randint(1, 100)
+    
+    z = x * y + (x ** 2) - (y // x)
+    
+    return z
+
+result = generate_random_code()
+
+print(result)

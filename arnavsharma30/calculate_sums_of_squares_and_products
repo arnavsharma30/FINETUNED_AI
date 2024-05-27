@@ -1,0 +1,14 @@
+import random
+
+def u():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    z = random.randint(1, 10)
+
+    a = x**2 + y**2 + z**2
+    b = 2*x*y + 2*y*z + 2*z*x
+    c = (x + y + z)**2
+
+    return a + b + c
+
+print(u())

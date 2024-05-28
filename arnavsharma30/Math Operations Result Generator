@@ -1,0 +1,13 @@
+import random
+
+def f(a, b):
+    c = a + b
+    d = a * b
+    e = c ** 2 + d
+    return e
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+z = f(x, y)
+
+print(z)

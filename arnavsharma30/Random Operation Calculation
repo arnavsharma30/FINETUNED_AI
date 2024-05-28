@@ -1,0 +1,17 @@
+import random
+
+def u(x):
+    return (x + 2) * 3
+
+def v(y):
+    return y**2 + 5
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+c = u(a)
+d = v(b)
+
+result = c + d
+
+print(result)

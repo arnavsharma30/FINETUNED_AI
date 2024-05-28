@@ -1,0 +1,15 @@
+import random
+
+def g(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return g(n-1) + g(n-2)
+
+def h():
+    x = random.randint(1, 100)
+    return g(x)
+
+print(h())

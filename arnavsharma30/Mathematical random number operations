@@ -1,0 +1,14 @@
+import random
+
+x = random.randint(1, 10)
+y = random.randint(1, 10)
+
+z = x + y
+a = x - y
+b = x * y
+c = x / y
+
+print(z)
+print(a)
+print(b)
+print(c)

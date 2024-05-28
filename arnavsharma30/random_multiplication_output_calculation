@@ -1,0 +1,9 @@
+import random
+
+def w(x):
+    y = random.randint(1, 10)
+    z = x * y
+    return z
+
+a = w(5)
+print(a)

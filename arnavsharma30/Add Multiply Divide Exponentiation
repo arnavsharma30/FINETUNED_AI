@@ -1,0 +1,28 @@
+import random as r
+
+def s(x, y):
+    return x + y
+
+def m(x, y):
+    return x * y
+
+def d(x, y):
+    return x / y
+
+def power(x, y):
+    return x ** y
+
+a = r.randint(1, 10)
+b = r.randint(1, 10)
+
+c = s(a, b)
+print(c)
+
+d = m(a, b)
+print(d)
+
+e = d(a, b)
+print(e)
+
+f = power(a, b)
+print(f)

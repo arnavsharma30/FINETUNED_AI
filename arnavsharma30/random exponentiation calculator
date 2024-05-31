@@ -1,0 +1,9 @@
+from random import randint
+
+def q():
+    x = randint(0, 100)
+    y = randint(0, 100)
+    z = x ** y
+    return z
+
+print(q())

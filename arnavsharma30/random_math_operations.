@@ -1,0 +1,26 @@
+import random
+
+def generate_random_code():
+    x = random.randint(1, 100)
+    y = random.randint(1, 100)
+    
+    a = x + y
+    b = x * y
+    c = x / y
+    
+    d = x ** 2
+    e = y ** 3
+    
+    f = x // y
+    g = x % y
+    
+    print("Results:")
+    print("x + y =", a)
+    print("x * y =", b)
+    print("x / y =", c)
+    print("x squared =", d)
+    print("y cubed =", e)
+    print("x // y =", f)
+    print("x % y =", g)
+
+generate_random_code()

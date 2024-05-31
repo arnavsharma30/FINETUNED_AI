@@ -1,0 +1,14 @@
+import random
+
+def q():
+    l = random.randint(1, 100)
+    m = random.randint(1, 100)
+    
+    if l % 2 == 0:
+        n = (l + m) * 2
+    else:
+        n = (l * m) / 2
+    
+    return n
+
+print(q())

@@ -1,0 +1,8 @@
+import random as r
+a = r.randint(1, 10)
+b = r.randint(1, 10)
+
+if a > b:
+    print(a + b)
+else:
+    print(a * b)

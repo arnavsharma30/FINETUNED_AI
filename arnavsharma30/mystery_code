@@ -1,0 +1,18 @@
+import random
+
+def unique_code():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    
+    def factorial(n):
+        if n == 0:
+            return 1
+        else:
+            return n * factorial(n-1)
+            
+    ans = factorial(a) + factorial(b)
+    
+    return ans
+
+result = unique_code()
+print(result)

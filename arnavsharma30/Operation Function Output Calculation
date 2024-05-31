@@ -1,0 +1,14 @@
+import random
+
+def f(a, b):
+    c = a + b
+    d = a * b
+    return c, d
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+z, w = f(x, y)
+
+print(f"Sum of {x} and {y} is: {z}")
+print(f"Product of {x} and {y} is: {w}")

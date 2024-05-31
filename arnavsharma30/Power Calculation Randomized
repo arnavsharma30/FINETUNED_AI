@@ -1,0 +1,9 @@
+import random
+import math
+
+x = random.randint(1, 10)
+y = random.randint(1, 10)
+
+z = math.pow(x, y)
+
+print(z)

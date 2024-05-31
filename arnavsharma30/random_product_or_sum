@@ -1,0 +1,12 @@
+import random
+
+def q():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    c = a * b
+    if c % 2 == 0:
+        return c
+    else:
+        return a + b
+
+print(q())

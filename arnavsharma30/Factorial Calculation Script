@@ -1,0 +1,10 @@
+import random
+
+def f(x):
+    if x == 0:
+        return 1
+    else:
+        return x * f(x - 1)
+
+n = random.randint(1, 10)
+print("Factorial of", n, "is", f(n))

@@ -1,0 +1,12 @@
+import numpy as np
+
+def f(x):
+    return np.sin(x) + np.cos(x)
+
+def g(x):
+    return np.exp(x) + np.log(x)
+
+x = np.random.rand(10)
+y = f(x) + g(x)
+
+print(y)

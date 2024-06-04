@@ -1,0 +1,14 @@
+import random
+
+def g():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    c = random.randint(1, 10)
+    
+    x = a + b + c
+    y = a * b * c
+    z = (a + b) * c
+
+    print(f"x: {x}, y: {y}, z: {z}")
+
+g()

@@ -1,0 +1,16 @@
+import random
+
+def f(x):
+    return x**2 + 5*x + 7
+
+def g(x, y):
+    return x*y - y + 3
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+result1 = f(a)
+result2 = g(a, b)
+
+print(result1)
+print(result2)

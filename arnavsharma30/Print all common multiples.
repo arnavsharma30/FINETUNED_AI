@@ -1,0 +1,11 @@
+from random import randint
+
+def u():
+    x = randint(1, 100)
+    y = randint(1, 100)
+    z = x * y
+    for i in range(z):
+        if i % x == 0 and i % y == 0:
+            print(i)
+
+u()

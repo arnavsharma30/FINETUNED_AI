@@ -1,0 +1,10 @@
+import random
+
+def u():
+    r = random.randint(1, 10)
+    if r % 2 ==0:
+        return r
+    else:
+        return r**2
+
+print(u())

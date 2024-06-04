@@ -1,0 +1,10 @@
+import random
+
+def f(x):
+    return x**2 + random.randint(1, 10)
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+result = f(a) + f(b)
+print(result)

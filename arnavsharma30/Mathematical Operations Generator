@@ -1,0 +1,14 @@
+import random
+
+def g():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    c = random.randint(1, 10)
+    d = random.randint(1, 10)
+
+    x = ((a + b) * c) / d
+    y = (a * b) / (c + d)
+    
+    return x, y
+
+print(g())

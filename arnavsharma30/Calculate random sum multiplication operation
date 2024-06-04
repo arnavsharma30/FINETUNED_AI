@@ -1,0 +1,11 @@
+import random
+
+def f(a, b):
+    c = a + (b * random.randint(1, 10))
+    return c
+
+x = 5
+y = 3
+result = f(x, y)
+
+print(result)

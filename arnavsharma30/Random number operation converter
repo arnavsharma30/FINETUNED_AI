@@ -1,0 +1,16 @@
+from random import randint
+
+def f():
+    a = randint(1, 10)
+    
+    if a > 5:
+        b = a * 2
+    else:
+        b = a + 5
+    
+    c = b / 2
+
+    return c
+
+result = f()
+print(result)

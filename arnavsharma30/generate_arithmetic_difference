@@ -1,0 +1,14 @@
+import random
+
+a = random.randint(1, 100)
+b = random.randint(1, 100)
+
+c = a + b
+d = a * b
+
+if c > d:
+    e = c - d
+else:
+    e = d - c
+
+print(e)

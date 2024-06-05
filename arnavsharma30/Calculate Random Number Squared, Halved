@@ -1,0 +1,13 @@
+import random
+
+def y(x):
+    return x**2 + 3*x - 7
+
+def z(w):
+    return w / 2
+
+a = random.randint(1, 100)
+b = y(a)
+c = z(b)
+
+print(c)

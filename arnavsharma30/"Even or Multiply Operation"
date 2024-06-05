@@ -1,0 +1,11 @@
+import random
+
+n = random.randint(1, 100)
+m = random.randint(1, 100)
+
+if n % 2 == 0:
+    x = n * m
+else:
+    x = n + m
+
+print("Result: ", x)

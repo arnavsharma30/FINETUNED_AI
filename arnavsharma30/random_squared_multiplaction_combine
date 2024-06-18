@@ -1,0 +1,11 @@
+import random as r
+
+def f(x):
+    y = x ** 2
+    z = y * x
+    return z
+
+a = r.randint(1, 10)
+b = f(a)
+c = b + a
+print(c)

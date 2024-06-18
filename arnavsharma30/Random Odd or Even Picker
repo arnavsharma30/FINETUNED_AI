@@ -1,0 +1,11 @@
+import random
+
+def g():
+    x = random.randint(1, 100)
+    n = x % 2
+    if n == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+print(g())

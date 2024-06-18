@@ -1,0 +1,18 @@
+Sure, here is a sample of a random Python code with simple math operations and complex calculations without any comments and using 1-letter variable names:
+
+```python
+import numpy as np
+
+x = np.random.randint(1, 10)
+y = np.random.randint(1, 10)
+
+a = x * y + x ** 2
+b = np.sqrt(a)
+
+c = np.log(b)
+d = np.sin(c)
+
+result = d + x * y
+
+print(result)
+```

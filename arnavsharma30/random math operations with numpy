@@ -1,0 +1,15 @@
+import numpy as np
+
+a = np.random.randint(1, 10)
+b = np.random.randint(1, 10)
+
+c = a * b
+d = a / b
+
+e = np.sin(a)
+f = np.cos(b)
+
+g = np.sqrt(a)
+h = np.log(b)
+
+print(c, d, e, f, g, h)

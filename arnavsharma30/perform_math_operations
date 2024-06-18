@@ -1,0 +1,17 @@
+import random
+
+def q(a, b):
+    c = a + b
+    d = a - b
+    e = a * b
+    f = a / b
+    g = a ** b
+    h = a % b
+
+    return c, d, e, f, g, h
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+result = q(x, y)
+print(result)

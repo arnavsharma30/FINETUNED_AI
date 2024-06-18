@@ -1,0 +1,11 @@
+from random import randint
+
+n = randint(1, 100)
+m = n + 10
+o = m * 2
+p = o - 5
+
+if p % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")

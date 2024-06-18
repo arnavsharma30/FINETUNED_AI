@@ -1,0 +1,13 @@
+import random
+
+def u(x):
+    return x * 2
+
+def v(y):
+    return y ** 3
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+c = u(a) + v(b)
+print(c)

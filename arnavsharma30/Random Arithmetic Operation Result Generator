@@ -1,0 +1,16 @@
+import random
+
+x = random.randint(1, 10)
+y = random.randint(1, 10)
+operation = random.choice(['add', 'subtract', 'multiply', 'divide'])
+
+if operation == 'add':
+    result = x + y
+elif operation == 'subtract':
+    result = x - y
+elif operation == 'multiply':
+    result = x * y
+else:
+    result = x / y
+
+print(f"The result of {operation}ing {x} and {y} is: {result}")

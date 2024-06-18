@@ -1,0 +1,12 @@
+import random
+
+def calculate(num):
+    a = num + random.randint(1, 10)
+    b = a * random.randint(1, 5)
+    c = b // random.randint(1, 3)
+    d = c ** random.randint(2, 4)
+    
+    return d
+
+result = calculate(random.randint(1, 100))
+print(result)

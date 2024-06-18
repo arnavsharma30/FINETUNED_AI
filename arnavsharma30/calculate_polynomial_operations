@@ -1,0 +1,21 @@
+import random
+import math
+
+def f(x):
+    return x**2 + 3*x + 2
+
+def g(x):
+    return math.sin(x) + math.cos(x)
+
+def h(x):
+    return x**3 - 2*x + 5
+
+def unique_code():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    
+    result = f(a) * g(b) - h(a)
+    
+    return result
+
+print(unique_code())

@@ -1,0 +1,17 @@
+import random
+
+def t():
+    r = random.randint(1, 100)
+    if r % 2 == 0:
+        return f(r)
+    else:
+        return g(r)
+
+def f(x):
+    return x * 2
+
+def g(x):
+    return x ** 2
+
+result = t()
+print(result)

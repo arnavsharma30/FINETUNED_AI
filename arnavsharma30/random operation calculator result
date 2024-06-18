@@ -1,0 +1,12 @@
+import random as r
+
+def f(a, b):
+    c = r.choice([a+b, a-b, a*b, a/b])
+    return c
+
+x = 7
+y = 3
+
+z = f(x, y)
+
+print(z)

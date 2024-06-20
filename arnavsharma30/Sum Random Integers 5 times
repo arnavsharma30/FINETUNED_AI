@@ -1,0 +1,11 @@
+import random
+
+def x(a):
+    b = 0
+    for c in range(a):
+        d = random.randint(1, 10)
+        b += d
+    return b
+
+e = x(5)
+print(e)

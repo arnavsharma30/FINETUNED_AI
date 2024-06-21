@@ -1,0 +1,10 @@
+import random
+
+def g():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    
+    return a * b
+
+result = g()
+print(result)

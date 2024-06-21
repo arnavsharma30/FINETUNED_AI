@@ -1,0 +1,17 @@
+import random
+
+def unique_code():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    
+    z = x * y
+    
+    a = random.randint(10, 20)
+    b = random.randint(5, 15)
+    
+    c = (a ** b) / z
+    
+    return c
+
+result = unique_code()
+print(result)

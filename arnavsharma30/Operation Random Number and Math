@@ -1,0 +1,14 @@
+import numpy as np
+
+def q():
+    x = np.random.randint(1, 10)
+    y = np.random.randint(1, 10)
+    z = np.random.randint(1, 10)
+    
+    a = x*y + z
+    b = np.cos(x) + np.sin(y) - np.tan(z)
+    
+    return a, b
+
+result = q()
+print("Result:", result)

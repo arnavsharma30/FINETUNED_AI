@@ -1,0 +1,17 @@
+import random
+
+def x(a, b):
+    return a + b
+
+def y(c, d):
+    return c * d
+
+def z(e, f):
+    return e ** f
+
+x_val = random.randint(1, 10)
+y_val = random.randint(1, 10)
+
+result = x(x_val, y(y_val, z(x_val, y_val)))
+
+print(result)

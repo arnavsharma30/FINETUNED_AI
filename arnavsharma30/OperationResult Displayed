@@ -1,0 +1,30 @@
+import random
+
+def f(a, b):
+    if a < b:
+        return "a is less than b"
+    elif a > b:
+        return "a is greater than b"
+    else:
+        return "a is equal to b"
+
+def g(x):
+    return x**2
+
+def h(n):
+    if n == 0:
+        return 1
+    else:
+        return n * h(n-1)
+
+num1 = random.randint(1, 10)
+num2 = random.randint(1, 10)
+
+result1 = f(num1, num2)
+result2 = g(num1)
+result3 = h(num2)
+
+print("The results are:")
+print(result1)
+print(result2)
+print(result3)

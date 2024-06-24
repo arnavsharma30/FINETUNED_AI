@@ -1,0 +1,10 @@
+import random
+
+def s():
+    x = random.randint(1, 10)
+    y = x ** 2
+    z = y * 3 - x + 5
+
+    return z
+
+print(s())

@@ -1,0 +1,12 @@
+import random
+
+def f(a):
+    b = random.randint(1, 10)
+    return a * b
+
+def g(x, y):
+    z = x ** y
+    return z
+
+result = g(f(3), 2)
+print(result)

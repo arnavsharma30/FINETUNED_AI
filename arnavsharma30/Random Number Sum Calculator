@@ -1,0 +1,15 @@
+import random as r
+
+def s():
+    n = r.randint(1, 10)
+    return n
+
+def c(a, b):
+    return a + b
+
+f = s()
+g = s()
+
+h = c(f, g)
+
+print("The sum of", f, "and", g, "is", h)

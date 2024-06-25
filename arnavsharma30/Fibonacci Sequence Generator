@@ -1,0 +1,13 @@
+import random
+
+def s(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return s(n-1) + s(n-2)
+
+num = random.randint(1, 20)
+result = s(num)
+print(f"The Fibonacci sequence at position {num} is {result}")

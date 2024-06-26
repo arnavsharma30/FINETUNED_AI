@@ -1,0 +1,15 @@
+import numpy as np
+
+def f(a):
+    x = np.linspace(0, 10, 100)
+    y = a * x ** 2
+    return x, y
+
+a = np.random.uniform(1, 10)
+x, y = f(a)
+
+plt.plot(x, y)
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('Quadratic Function')
+plt.show()

@@ -1,0 +1,22 @@
+import random as r
+import math as m
+
+def f(x):
+    return x**2 + 3*x - 2
+
+a = r.randint(1, 10)
+b = r.randint(1, 10)
+
+c = a + b
+
+print(f"The sum of {a} and {b} is {c}")
+
+if c % 2 == 0:
+    print(f"The sum is even")
+else:
+    print(f"The sum is odd")
+
+d = r.uniform(0, 10)
+e = m.sqrt(d)
+
+print(f"The square root of {d} is {e}")

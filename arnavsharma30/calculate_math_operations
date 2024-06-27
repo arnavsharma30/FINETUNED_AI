@@ -1,0 +1,13 @@
+from random import randint
+
+def f(a, b):
+    c = a + b
+    d = a * b
+    e = a - b
+    return c, d, e
+
+x = randint(1, 10)
+y = randint(1, 10)
+
+result = f(x, y)
+print(result)

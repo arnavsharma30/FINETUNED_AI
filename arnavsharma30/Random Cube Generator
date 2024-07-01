@@ -1,0 +1,7 @@
+from random import randint
+
+a = randint(1, 10)
+b = a * 2
+c = b ** 3
+
+print(c)

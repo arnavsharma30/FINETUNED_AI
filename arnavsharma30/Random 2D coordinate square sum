@@ -1,0 +1,12 @@
+import numpy as np
+
+x = np.random.randint(1, 10)
+y = np.random.randint(1, 10)
+
+def f(a, b):
+    z = a**2 + b**2
+    return z
+
+result = f(x, y)
+
+print(result)

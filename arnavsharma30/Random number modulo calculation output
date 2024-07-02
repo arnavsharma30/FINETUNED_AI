@@ -1,0 +1,15 @@
+import random
+
+def u():
+    d = 10
+    e = random.randint(1, 100)
+    f = e * d
+    g = f/2
+    h = g - (d * 3)
+    i = h + e
+    j = i % 5
+
+    return j
+
+result = u()
+print(result)

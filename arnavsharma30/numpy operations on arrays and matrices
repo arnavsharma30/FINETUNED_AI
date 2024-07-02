@@ -1,0 +1,17 @@
+import numpy as np
+
+x = np.random.rand(10)
+y = np.random.rand(10)
+
+z = np.sum(x) + np.sum(y)
+
+a = np.dot(x, y)
+
+b = np.linalg.norm(x) * np.linalg.norm(y)
+
+c = np.corrcoef(x, y)
+
+print(z)
+print(a)
+print(b)
+print(c)

@@ -1,0 +1,20 @@
+import random
+
+def r():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    c = random.randint(1, 10)
+    
+    if a > b:
+        result = a + b
+    elif a < b:
+        result = a - b
+    else:
+        result = a * b
+    
+    if result < c:
+        return result * c
+    else:
+        return result / c
+
+print(r())

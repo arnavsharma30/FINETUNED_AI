@@ -1,0 +1,11 @@
+import random
+
+def r():
+    x = random.randint(1, 100)
+    y = random.randint(1, 100)
+    
+    z = (x ** 2) + (y ** 2)
+    
+    return z
+
+print(r())

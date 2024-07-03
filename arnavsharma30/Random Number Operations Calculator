@@ -1,0 +1,14 @@
+import random
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+z = x + y
+print(z)
+
+for i in range(10):
+    x *= i
+    y += i
+
+result = x / y
+print(result)

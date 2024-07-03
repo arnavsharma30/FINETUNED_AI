@@ -1,0 +1,15 @@
+import numpy as np 
+from scipy.optimize import minimize
+
+a = np.random.randint(1, 10)
+b = np.random.randint(1, 10)
+
+c = a + b
+d = np.sqrt(c)
+
+def f(x):
+    return x**2 + x + 1
+
+result = minimize(f, 0)
+
+print(a, b, c, d, result.x[0])

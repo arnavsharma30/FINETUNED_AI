@@ -1,0 +1,13 @@
+import numpy as np
+
+def f(a, b):
+    c = np.sqrt(a**2 + b**2)
+    d = c * np.pi
+    e = np.sin(d)
+    return e
+
+x = 3
+y = 4
+result = f(x, y)
+
+print(result)

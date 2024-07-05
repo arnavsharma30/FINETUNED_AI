@@ -1,0 +1,14 @@
+import random
+
+def q(n):
+    if n <= 1:
+        return n
+    else:
+        return q(n - 1) + q(n - 2)
+
+def d():
+    x = random.randint(1, 10)
+    return q(x)
+
+result = d()
+print(result)

@@ -1,0 +1,12 @@
+import random
+
+def f(x):
+    if x % 2 == 0:
+        return x * 2
+    else:
+        return x * 3
+
+n = random.randint(1, 10)
+result = f(n)
+
+print(result)

@@ -1,0 +1,22 @@
+import random
+
+def g():
+    a = 5
+    b = 10
+    c = a + b
+    return c
+
+def h(x, y):
+    return x * y
+
+def i():
+    r = random.randint(1, 100)
+    s = random.randint(1, 100)
+    t = random.randint(1, 100)
+
+    u = r + s + t
+    return u
+
+print(g())
+print(h(3, 4))
+print(i())

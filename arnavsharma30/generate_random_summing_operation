@@ -1,0 +1,10 @@
+import random
+
+def generate_random_code():
+    n = random.randint(1, 10)
+    m = random.randint(10, 20)
+    
+    result = n + m
+    return result
+
+print(generate_random_code())

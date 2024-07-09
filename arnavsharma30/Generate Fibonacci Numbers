@@ -1,0 +1,9 @@
+import random
+
+def f(a):
+    if a < 2: return a
+    else:
+        return f(a-1) + f(a-2)
+
+x = random.randint(1, 10)
+print(f"The {x}th Fibonacci number is {f(x)}")

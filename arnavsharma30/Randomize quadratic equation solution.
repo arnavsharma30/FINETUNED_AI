@@ -1,0 +1,8 @@
+import random
+
+def y(x):
+    return x**2 + 3*x - 7
+
+n = random.randint(1, 10)
+result = y(n)
+print(result)

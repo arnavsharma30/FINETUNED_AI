@@ -1,0 +1,12 @@
+import random
+
+def r():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    z = random.randint(1, 10)
+    
+    result = (x * y) - z
+    
+    return result
+
+print(r())

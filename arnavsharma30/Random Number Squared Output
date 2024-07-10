@@ -1,0 +1,9 @@
+import random
+
+n = random.randint(1, 10)
+
+def f(x):
+    return x ** 2
+
+result = f(n)
+print(result)

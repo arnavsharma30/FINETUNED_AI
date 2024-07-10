@@ -1,0 +1,11 @@
+import numpy as np
+
+def t(p):
+    return np.cos(p) + np.sin(p)
+
+x = np.random.randint(1, 10)
+y = np.random.randint(1, 10)
+
+z = t(x) * y
+
+print(z)

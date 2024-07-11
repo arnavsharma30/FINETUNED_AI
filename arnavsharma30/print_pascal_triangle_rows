@@ -1,0 +1,18 @@
+import random
+
+def s(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * s(n-1)
+
+def p(n, r):
+    return s(n) / (s(r) * s(n - r))
+
+def unique_code():
+    n = random.randint(5, 10)
+    
+    for i in range(n):
+        print(" " * (n-i-1) + " ".join(str(p(i, j)) for j in range(i+1)))
+
+unique_code()

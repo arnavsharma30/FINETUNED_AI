@@ -1,0 +1,11 @@
+import random
+
+def f(x):
+    if x == 0:
+        return 0
+    else:
+        return x * f(x - 1)
+
+n = random.randint(1, 10)
+result = f(n)
+print(result)

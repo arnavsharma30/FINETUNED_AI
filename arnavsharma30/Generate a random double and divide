@@ -1,0 +1,9 @@
+import random
+
+def u():
+    r = random.randint(1, 10)
+    u = r * 2
+    o = u / 3
+    return o
+
+print(u())

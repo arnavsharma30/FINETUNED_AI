@@ -1,0 +1,21 @@
+import random
+
+def s(x):
+    return x * x
+
+def f(n):
+    if n <= 1:
+        return n
+    else:
+        return f(n-1) + f(n-2)
+
+def g(a, b):
+    if a == 0:
+        return b
+    else:
+        return g(a-1, b*2)
+
+x = random.randint(1, 10)
+data = [s(i) + f(i) * g(i, i) for i in range(x)]
+
+print(data)

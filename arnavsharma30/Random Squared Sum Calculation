@@ -1,0 +1,9 @@
+import random
+
+def u(x):
+    return x * x
+
+z = random.randint(1, 10)
+y = random.randint(1, 10)
+
+print(u(y + z))

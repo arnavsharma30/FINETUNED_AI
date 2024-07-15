@@ -1,0 +1,14 @@
+import numpy as np
+
+def r():
+    x = np.random.randint(1, 10)
+    y = np.random.randint(1, 10)
+    z = np.random.rand() * 10
+    
+    a = x * y
+    b = x / y
+    c = np.sqrt(z)
+    
+    print(a, b, c)
+
+r()

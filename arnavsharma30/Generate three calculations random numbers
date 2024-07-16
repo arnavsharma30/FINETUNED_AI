@@ -1,0 +1,16 @@
+import random
+
+def g():
+    x = random.randint(1, 100)
+    y = random.randint(1, 100)
+    z = random.randint(1, 100)
+
+    a = x + y - z
+    b = x * y * z
+    c = x / y
+
+    print(f"{x} + {y} - {z} = {a}")
+    print(f"{x} * {y} * {z} = {b}")
+    print(f"{x} / {y} = {c}")
+
+g()

@@ -1,0 +1,10 @@
+import numpy as np
+
+a = np.random.randint(1, 10)
+b = np.random.randint(1, 10)
+
+def c(x, y):
+    return x + y
+
+result = c(a, b)
+print(result)

@@ -1,0 +1,9 @@
+import random
+
+def f(a, b):
+    x = a + b
+    y = a * b
+    z = random.randint(1, 100)
+    return x, y, z
+
+print(f(5, 10))

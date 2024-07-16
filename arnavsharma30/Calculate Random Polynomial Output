@@ -1,0 +1,14 @@
+import random
+
+def u():
+    z = random.randint(1, 10)
+    y = z * 2
+    x = y / 3
+    w = x + 5
+    v = w - 2
+    u = v ** 2
+
+    return u
+
+result = u()
+print(result)

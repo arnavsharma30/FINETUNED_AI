@@ -1,0 +1,33 @@
+import random
+
+def f(a,b):
+    c = a + b
+    d = a * b
+    return c, d
+
+def g(x,y,z):
+    w = x + y * z
+    return w
+
+def h(n):
+    if n < 0:
+        return "Negative"
+    elif n == 0:
+        return "Zero"
+    else:
+        return "Positive"
+
+def unique_code():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    z = random.randint(1, 10)
+
+    result1, result2 = f(x, y)
+    result3 = g(x, y, z)
+    classification = h(result1)
+
+    print(f"Result1: {result1}, Result2: {result2}, Result3: {result3}")
+    print(f"Classification: {classification}")
+
+
+unique_code()

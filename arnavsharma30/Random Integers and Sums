@@ -1,0 +1,13 @@
+import numpy as np
+
+a = np.random.randint(1, 10)
+b = np.random.randint(1, 10)
+
+c = a + b
+d = a * b
+
+e = np.sqrt(c)
+
+print(c)
+print(d)
+print(e)

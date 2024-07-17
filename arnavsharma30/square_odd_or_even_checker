@@ -1,0 +1,12 @@
+import random
+
+def y(x):
+    return x ** 2
+
+a = random.randint(1, 100)
+b = y(a)
+
+if b % 2 == 0:
+    print(f"{b} is even.")
+else:
+    print(f"{b} is odd.")

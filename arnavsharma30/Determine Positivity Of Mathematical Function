@@ -1,0 +1,15 @@
+import random
+
+n = random.randint(1, 10)
+
+def f(x):
+    return x**2 + 5*x - 10
+
+result = f(n)
+
+if result > 0:
+    print("The result is positive")
+elif result < 0:
+    print("The result is negative")
+else:
+    print("The result is zero")

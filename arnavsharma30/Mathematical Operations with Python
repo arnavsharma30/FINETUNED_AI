@@ -1,0 +1,37 @@
+import random
+
+def x(a, b):
+    return a + b
+
+y = x(3, 4)
+print(y)
+
+def z(c, d):
+    return c * d
+
+e = z(5, 6)
+print(e)
+
+def h(i, j, k):
+    return (i + j) * k
+
+l = h(2, 3, 4)
+print(l)
+
+def w(m, n, o):
+    return (m * n) ** o
+
+p = w(2, 2, 3)
+print(p)
+
+def q(r, s, t):
+    return (r + s) / t
+
+u = q(10, 5, 3)
+print(u)
+
+def v(a, b, c, d, e):
+    return ((a + b) * c - d) / e
+
+f = v(2, 3, 4, 5, 6)
+print(f)

@@ -1,0 +1,29 @@
+import random
+
+def x(a, b):
+    c = a + b
+    d = a - b
+    e = a * b
+    f = a / b
+    return c, d, e, f
+
+def y(a, b):
+    g = a ** b
+    h = a % b
+    return g, h
+
+def z(a, b):
+    i = a + b
+    j = a - b
+    k = a * b
+    l = a / b
+    m = a ** b
+    n = a % b
+    return i, j, k, l, m, n
+
+a = random.randint(1,10)
+b = random.randint(1,10)
+
+print(x(a,b))
+print(y(a,b))
+print(z(a,b))

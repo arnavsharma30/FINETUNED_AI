@@ -1,0 +1,22 @@
+import random
+
+def a(x):
+    return x*x
+
+def b(y):
+    return y*y*y
+
+def c(z):
+    return z*z*z*z
+
+def d(w):
+    return w*w*w*w*w
+
+def e(v):
+    return v*v*v*v*v*v
+
+random_num = random.randint(1, 10)
+
+result = a(random_num) + b(random_num) - c(random_num) * d(random_num) / e(random_num)
+
+print("The result of the random calculation is:", result)

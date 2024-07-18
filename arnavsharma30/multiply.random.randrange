@@ -1,0 +1,11 @@
+import random as r
+
+def u():
+    x = r.randint(1, 10)
+    y = r.randint(1, 10)
+    
+    z = x * y
+    
+    print(z)
+
+u()

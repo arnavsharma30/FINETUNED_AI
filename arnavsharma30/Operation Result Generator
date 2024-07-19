@@ -1,0 +1,13 @@
+import random
+
+def f(a):
+    b = random.randint(1, 10)
+    c = a + b
+    d = c * b
+    e = d / 2
+    f = e - a
+    return f
+
+x = random.randint(1, 100)
+result = f(x)
+print(result)

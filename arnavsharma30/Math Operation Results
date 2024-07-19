@@ -1,0 +1,24 @@
+import random
+
+def x(a,b):
+    c = a + b
+    return c
+
+def y(a,b):
+    c = a * b
+    return c
+
+def z(a,b):
+    c = a ** b
+    return c
+
+num1 = random.randint(1, 10)
+num2 = random.randint(1, 10)
+
+result1 = x(num1, num2)
+result2 = y(num1, num2)
+result3 = z(num1, num2)
+
+print(result1)
+print(result2)
+print(result3)

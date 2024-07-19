@@ -1,0 +1,28 @@
+import random
+
+def d(n):
+    r = random.randint(1,n)
+    return r
+
+def s(a,b):
+    return a + b
+
+def m(a,b):
+    return a * b
+
+def c(a,b):
+    return a - b
+
+def dd(a,b):
+    return a / b
+
+x = d(10)
+y = d(10)
+z = d(10)
+
+w = s(x, y)
+v = m(x, z)
+u = c(y, z)
+t = dd(w, v)
+
+print(t)

@@ -1,0 +1,42 @@
+import random
+
+def x(a, b):
+    c = a * b
+    return c
+
+def y(a, b):
+    d = a / b
+    return d
+
+def z(a, b):
+    e = a + b
+    return e
+
+def w(a, b):
+    f = a - b
+    return f
+
+def v(a, b):
+    g = a ** b
+    return g
+
+def u(a, b):
+    h = a % b
+    return h
+
+num1 = random.randint(1, 10)
+num2 = random.randint(1, 10)
+
+result1 = x(num1, num2)
+result2 = y(num1, num2)
+result3 = z(num1, num2)
+result4 = w(num1, num2)
+result5 = v(num1, num2)
+result6 = u(num1, num2)
+
+print("Multiplication:", result1)
+print("Division:", result2)
+print("Addition:", result3)
+print("Subtraction:", result4)
+print("Exponentiation:", result5)
+print("Modulus:", result6)

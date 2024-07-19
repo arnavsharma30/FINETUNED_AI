@@ -1,0 +1,17 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+c = a + b
+d = a * b
+
+print(f"The sum of {a} and {b} is {c}")
+print(f"The product of {a} and {b} is {d}")
+
+e = random.randint(10, 20)
+f = random.randint(10, 20)
+
+g = e ** f
+
+print(f"{e} raised to the power of {f} is {g}")

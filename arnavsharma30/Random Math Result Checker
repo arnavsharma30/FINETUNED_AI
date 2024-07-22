@@ -1,0 +1,12 @@
+from random import randint
+
+a = randint(1, 100)
+b = randint(1, 100)
+
+c = (a * a) + (b * b) + (2 * a * b)
+d = (a + b) ** 2
+
+if c == d:
+    print("Wow, this is a unique math result!")
+else:
+    print("Hmm, not so unique this time.")

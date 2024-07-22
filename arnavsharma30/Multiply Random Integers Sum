@@ -1,0 +1,10 @@
+import random
+
+def d(x):
+    return x * random.randint(1, 10)
+
+a = 5
+b = 7
+c = d(a) + d(b)
+
+print(c)

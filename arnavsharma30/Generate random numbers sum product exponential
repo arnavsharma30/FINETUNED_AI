@@ -1,0 +1,17 @@
+import random
+
+a = random.randint(1,10)
+b = random.randint(1,10)
+
+c = a + b
+d = a * b
+
+print(c)
+print(d)
+
+e = random.uniform(1,10)
+f = random.uniform(1,10)
+
+g = e ** f
+
+print(g)

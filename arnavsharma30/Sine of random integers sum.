@@ -1,0 +1,11 @@
+import numpy as np
+
+def f(x):
+    return np.sin(x)
+
+a = np.random.randint(1, 10)
+b = np.random.randint(1, 10)
+
+result = f(a) + f(b)
+
+print(result)

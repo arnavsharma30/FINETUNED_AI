@@ -1,0 +1,12 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+c = random.randint(1, 10)
+
+d = a * b + c
+
+if d % 2 == 0:
+    print("Even number!")
+else:
+    print("Odd number!")

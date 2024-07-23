@@ -1,0 +1,9 @@
+import random
+
+def w():
+    c = random.randint(1, 20)
+    d = random.randint(1, 20)
+    return c + d
+
+result = w()
+print(result)

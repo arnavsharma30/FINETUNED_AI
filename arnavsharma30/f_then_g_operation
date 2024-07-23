@@ -1,0 +1,22 @@
+from random import randint
+
+def f(s):
+    x = 0
+    for c in s:
+        x += ord(c)
+    return x
+
+def g(n):
+    return n * 2
+
+def main():
+    s = input("Enter a string: ")
+    n = randint(1, 10)
+    
+    result = f(s)
+    result = g(result)
+    
+    print(result)
+
+if __name__ == "__main__":
+    main()

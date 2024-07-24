@@ -1,0 +1,6 @@
+import random as r
+x = r.randint(1, 100)
+y = r.randint(1, 100)
+
+z = (x + y) * r.randint(1, 10)
+print(z)

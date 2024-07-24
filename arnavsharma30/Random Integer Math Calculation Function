@@ -1,0 +1,12 @@
+import random
+
+a = random.randint(1,10)
+b = random.randint(1,10)
+
+c = a + b
+
+d = c * random.randint(1,3)
+
+e = d / random.randint(1,5)
+
+print(e)

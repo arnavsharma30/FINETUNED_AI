@@ -1,0 +1,10 @@
+import numpy as np
+
+def func(a):
+    b = np.sqrt(a)
+    c = np.exp(b)
+    d = np.log(c)
+    e = np.abs(d)
+    return e
+
+print(func(10))

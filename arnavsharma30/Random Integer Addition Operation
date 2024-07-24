@@ -1,0 +1,13 @@
+import numpy as np
+
+x = np.random.randint(1, 10)
+y = np.random.randint(1, 10)
+
+z = x + y
+print(z)
+
+a = np.random.random()
+b = np.random.random()
+
+c = np.sin(a) + np.cos(b)
+print(c)

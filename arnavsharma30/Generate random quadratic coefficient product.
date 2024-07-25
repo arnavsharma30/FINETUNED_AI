@@ -1,0 +1,11 @@
+import random
+
+def fn(x):
+    y = x ** 2
+    z = y * random.randint(1, 10)
+    return z
+
+a = random.randint(1, 10)
+b = fn(a)
+
+print(b)

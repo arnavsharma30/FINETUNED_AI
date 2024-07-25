@@ -1,0 +1,13 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+c = a * b
+
+if c % 2 == 0:
+    d = c / 2
+else:
+    d = c * 2
+
+print(d)

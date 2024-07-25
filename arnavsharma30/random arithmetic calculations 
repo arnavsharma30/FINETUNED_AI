@@ -1,0 +1,13 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+c = a + b
+print(c)
+
+d = random.randrange(1, 100, 5)
+print(d)
+
+e = round(random.uniform(1, 10), 2)
+print(e)

@@ -1,0 +1,15 @@
+import numpy as np
+from scipy.optimize import minimize
+
+# Define the function to be minimized
+def fun(x):
+    return np.sin(x[0]) * np.cos(x[1])
+
+# Generate random initial guess
+x0 = np.random.rand(2) * 2 * np.pi
+
+# Perform minimization using Nelder-Mead method
+res = minimize(fun, x0, method='nelder-mead')
+
+print("Minimum value found:", res.fun)
+print("Optimal parameters found:", res.x)

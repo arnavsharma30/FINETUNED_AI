@@ -1,0 +1,10 @@
+import random
+
+def v(a):
+    if a == 0:
+        return a
+    return a * v(a-1)
+
+b = random.randint(1, 10)
+result = v(b)
+print(result)

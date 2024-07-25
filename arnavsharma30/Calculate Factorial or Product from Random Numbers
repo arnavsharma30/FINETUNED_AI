@@ -1,0 +1,15 @@
+import random
+import math
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+c = random.randint(1, 10)
+
+d = math.sqrt(a**2 + b**2 + c**2)
+
+if d > 10:
+    e = math.factorial(d)
+    print(f"The factorial of the square root of the sum of squares is: {e}")
+else:
+    f = a * b * c
+    print(f"The product of the random numbers is: {f}")

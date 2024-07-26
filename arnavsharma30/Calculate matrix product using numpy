@@ -1,0 +1,9 @@
+import numpy as np
+
+n = np.random.randint(1, 10)
+a = np.random.randn(n, n)
+b = np.random.randn(n, n)
+
+c = np.matmul(a, b)
+
+print(c)

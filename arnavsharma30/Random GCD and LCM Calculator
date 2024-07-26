@@ -1,0 +1,18 @@
+import random
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def lcm(a, b):
+    return abs(a * b) // gcd(a, b)
+
+result_gcd = gcd(x, y)
+result_lcm = lcm(x, y)
+
+print(f"The GCD of {x} and {y} is: {result_gcd}")
+print(f"The LCM of {x} and {y} is: {result_lcm}")

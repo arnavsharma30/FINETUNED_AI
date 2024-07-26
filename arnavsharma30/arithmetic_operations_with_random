@@ -1,0 +1,32 @@
+import random
+
+def m(a, b):
+    c = a + b
+    return c
+
+def n(a, b):
+    c = a * b
+    return c
+
+def o(a, b):
+    c = a / b
+    return c
+
+def p(a, b):
+    c = a ** b
+    return c
+
+x = random.randint(1, 10)
+y = random.randint(1, 10)
+
+z = m(x, y)
+print(z)
+
+w = n(x, y)
+print(w)
+
+v = o(x, y)
+print(v)
+
+u = p(x, y)
+print(u)

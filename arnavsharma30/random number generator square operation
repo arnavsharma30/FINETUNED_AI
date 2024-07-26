@@ -1,0 +1,11 @@
+import random
+
+def generate_code():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    
+    z = ((x**2) + (y**2)) / 2
+    
+    print(z)
+
+generate_code()

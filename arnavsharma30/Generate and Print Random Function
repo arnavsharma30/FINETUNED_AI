@@ -1,0 +1,10 @@
+import random
+
+n = random.randint(1, 100)
+
+def f(x):
+    return x**2 + 3*x - 5
+
+result = f(n)
+
+print("The result of the function f(x) with input", n, "is:", result)

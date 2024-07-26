@@ -1,0 +1,8 @@
+import random
+
+def x(a, b):
+    return a ** b + random.randint(1, 10)
+
+c = x(2, 3)
+
+print(c)

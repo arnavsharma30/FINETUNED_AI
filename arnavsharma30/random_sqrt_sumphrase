@@ -1,0 +1,11 @@
+import math
+import random
+
+def r():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    z = x + y
+    a = math.sqrt(z)
+    return a
+
+print(r())

@@ -1,0 +1,9 @@
+import math
+import random
+
+n = random.randint(1, 10)
+x = random.uniform(1, 10)
+
+result = math.sqrt(x) * n + math.sin(x) / math.cos(n)
+
+print(result)

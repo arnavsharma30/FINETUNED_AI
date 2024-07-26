@@ -1,0 +1,12 @@
+import random
+
+def f(a, b):
+    z = a + b
+    return z
+
+x = 5
+y = 10
+
+result = f(x, y)
+
+print(result)

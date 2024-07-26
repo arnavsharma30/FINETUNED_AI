@@ -1,0 +1,13 @@
+import random
+
+def u():
+    p = random.randint(1, 10)
+    q = random.randint(1, 10)
+    
+    r = p ** q
+    
+    s = round((p + q) / r, 2)
+    
+    return s
+
+print(u())

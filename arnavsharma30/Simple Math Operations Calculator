@@ -1,0 +1,15 @@
+import random
+
+def c():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    
+    c = a + b
+    d = a * b
+    e = a ** b
+
+    print(f"Addition: {c}")
+    print(f"Multiplication: {d}")
+    print(f"Exponentiation: {e}")
+
+c()

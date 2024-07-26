@@ -1,0 +1,18 @@
+import random
+
+def calc(x, y, z):
+    a = x + y
+    b = z * 2
+    c = a + b
+    return c
+
+def unique_code():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    z = random.randint(1, 10)
+    
+    result = calc(x, y, z)
+    
+    print(f"The result of the unique calculation is: {result}")
+
+unique_code()

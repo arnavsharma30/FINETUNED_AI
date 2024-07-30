@@ -1,0 +1,14 @@
+import random
+
+a = random.randint(1, 100)
+b = random.randint(1, 100)
+
+c = a * b
+
+d = c / 2
+
+e = d + (a + b)
+
+result = e % 7
+
+print(result)

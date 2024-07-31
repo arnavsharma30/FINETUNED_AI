@@ -1,0 +1,11 @@
+from random import randint
+
+def q(a, b):
+    return a ** b
+
+x = randint(1, 10)
+y = randint(1, 10)
+
+z = q(x, y)
+
+print(z)

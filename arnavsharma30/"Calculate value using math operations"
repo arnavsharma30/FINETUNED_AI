@@ -1,0 +1,12 @@
+from random import randint
+
+def u():
+    x = randint(1, 100)
+    y = x // 2
+    z = y ** 3
+    w = z + x * y - 10
+
+    return w
+
+result = u()
+print(result)

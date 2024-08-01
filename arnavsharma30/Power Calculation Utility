@@ -1,0 +1,9 @@
+import random 
+import math
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+z = math.pow(x, y)
+
+print(f"The result of {x} to the power of {y} is {z}")

@@ -1,0 +1,23 @@
+import random as r
+
+def q(x):
+    if x == 1:
+        return 1
+    else:
+        return x * q(x - 1)
+
+def z(n):
+    t = 0
+    while n > 0:
+        d = n % 10
+        t += d
+        n //= 10
+    return t
+
+a = r.randint(1, 10)
+
+b = q(a)
+
+c = z(b)
+
+print(c)

@@ -1,0 +1,18 @@
+import random
+
+def f(x):
+    return x * 2
+
+def g(y):
+    return y ** 2
+
+def h(z):
+    return z + 10
+
+x = random.randint(1, 10)
+y = random.randint(1, 10)
+z = random.randint(1, 10)
+
+result = h(g(f(x))) + h(g(f(y))) + h(g(f(z)))
+
+print(result)

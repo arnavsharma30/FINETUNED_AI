@@ -1,0 +1,9 @@
+import random as r, math as m
+
+def g():
+    x = r.randint(1, 10)
+    y = r.randint(1, 10)
+    z = m.sqrt(x**2 + y**2)
+    print(f"Result: {z}")
+
+g()

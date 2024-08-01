@@ -1,0 +1,18 @@
+import random
+
+def h(x):
+    m = random.randint(1,10)
+    return x * m
+
+def g(y):
+    n = random.randint(5,15)
+    if y % 2 == 0:
+        return y + n
+    else:
+        return y - n
+
+a = 7
+b = h(a)
+c = g(b)
+
+print(c)

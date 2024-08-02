@@ -1,0 +1,14 @@
+Here is a random Python code snippet:
+
+```
+import numpy as np
+
+x = np.random.randint(1, 100, 10)
+y = np.random.randint(1, 100, 10)
+
+z = x * y
+
+print(z)
+```
+
+This code generates two arrays of random integers between 1 and 100, then performs element-wise multiplication on them using NumPy and prints the result.

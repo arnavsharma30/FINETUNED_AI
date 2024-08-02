@@ -1,0 +1,16 @@
+from random import randint
+
+def c():
+    return randint(1, 100)
+
+x = c()
+y = c()
+
+z = x + y
+print(z)
+
+def d(a, b):
+    return a ** b
+
+result = d(x, y)
+print(result)

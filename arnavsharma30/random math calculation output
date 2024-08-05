@@ -1,0 +1,11 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+if a % 2 == 0:
+    c = a + b
+else:
+    c = a * b
+
+print(c)

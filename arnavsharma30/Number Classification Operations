@@ -1,0 +1,25 @@
+import random
+
+def a(x):
+    if x % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+def b(y):
+    if y < 0:
+        return "Negative"
+    else:
+        return "Positive"
+
+def c(z):
+    if z == int(z):
+        return "Integer"
+    else:
+        return "Float"
+
+num = random.randint(1, 100)
+print(f"Number: {num}")
+print(f"Is even or odd? {a(num)}")
+print(f"Is negative or positive? {b(num)}")
+print(f"Is integer or float? {c(num)}")

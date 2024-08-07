@@ -1,0 +1,13 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+c = a * b
+d = a + b
+
+e = c / d
+
+result = round(e, 2)
+
+print(result)

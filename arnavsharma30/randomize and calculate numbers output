@@ -1,0 +1,8 @@
+import numpy as np
+
+a = np.random.randint(1, 10)
+b = np.random.randint(1, 10)
+
+c = a * b + np.sqrt(a) - np.power(b, 2)
+
+print(c)

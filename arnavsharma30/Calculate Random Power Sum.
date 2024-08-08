@@ -1,0 +1,15 @@
+import random
+
+def f(a, b, c):
+    d = a + b
+    e = c ** (a + b)
+    return d, e
+
+x = random.randint(1, 10)
+y = random.randint(1, 10)
+z = random.randint(1, 10)
+
+result1, result2 = f(x, y, z)
+
+print(f"Result 1: {result1}")
+print(f"Result 2: {result2}")

@@ -1,0 +1,19 @@
+from random import randint
+
+a = 4
+b = 7
+c = 2
+
+d = a + b
+e = b - c
+f = a * c
+g = b // c
+
+h = d + e - f + g
+
+print(h)
+
+if h > 10:
+    print("Wow, that's a big number!")
+else:
+    print("Not bad, but could be bigger.")

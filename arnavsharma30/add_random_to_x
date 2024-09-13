@@ -1,0 +1,8 @@
+import random
+
+def u(x):
+    y = random.randint(1, 10)
+    return x + y
+
+a = u(5)
+print(a)

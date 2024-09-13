@@ -1,0 +1,15 @@
+import random
+
+def x(a):
+    return a**2
+
+def y(b):
+    return 2*b + 5
+
+def z(c):
+    return c*x(c) + y(c)
+
+num = random.randint(1, 10)
+result = z(num)
+
+print(result)

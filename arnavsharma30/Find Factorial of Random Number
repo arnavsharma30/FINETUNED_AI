@@ -1,0 +1,23 @@
+import random
+
+def z(a):
+    if a == 0:
+        return 1
+    return a * z(a-1)
+
+def y(b):
+    for c in range(2, b):
+        if b % c == 0:
+            return False
+    return True
+
+def x():
+    d = random.randint(1, 10)
+    e = z(d)
+    
+    if y(e):
+        return f"Factorial of {d} is {e} which is a prime number"
+    else:
+        return f"Factorial of {d} is {e} which is not a prime number"
+
+print(x())

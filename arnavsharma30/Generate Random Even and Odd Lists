@@ -1,0 +1,11 @@
+from random import randint
+
+def f(l):
+    e = [i for i in l if i % 2 == 0]
+    o = [i for i in l if i % 2 != 0]
+    return e, o
+
+n = randint(1, 100)
+l = [randint(1, 100) for _ in range(n)]
+
+print(f(l))

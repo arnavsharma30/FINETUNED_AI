@@ -1,0 +1,10 @@
+import random
+
+def q(e):
+    if e==1:
+        return 1
+    else:
+        return e*q(e-1)
+
+n = random.randint(1, 10)
+print("Factorial of", n, "is", q(n))

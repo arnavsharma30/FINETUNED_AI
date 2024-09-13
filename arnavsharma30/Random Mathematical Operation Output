@@ -1,0 +1,19 @@
+import random
+
+def j():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    
+    z = (x + y) * (x - y)
+    
+    a = x ** 2
+    b = y ** 2
+    
+    if z > 0:
+        c = a + b
+    else:
+        c = a - b
+        
+    return c
+
+print(j())

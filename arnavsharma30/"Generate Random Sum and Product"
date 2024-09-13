@@ -1,0 +1,11 @@
+import random 
+
+def u():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    z = x + y
+    w = x * y
+    print("The sum of x and y is", z)
+    print("The product of x and y is", w)
+
+u()

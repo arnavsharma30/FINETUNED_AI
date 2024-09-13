@@ -1,0 +1,16 @@
+import random
+
+def r():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    c = a + b
+    d = a / b
+    e = a * b
+    f = a - b
+
+    g = c + d + e + f
+    h = g / 4
+
+    return h
+
+print(r())

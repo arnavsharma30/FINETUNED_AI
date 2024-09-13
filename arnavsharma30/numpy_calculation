@@ -1,0 +1,14 @@
+import numpy as np
+
+def f(a, b):
+    x = np.arange(a, b, 0.1)
+    y = np.sin(x) + np.cos(x)
+    z = np.exp(x) * np.log(x)
+    
+    return x, y, z
+
+a = 0
+b = 10
+result = f(a, b)
+
+print(result)

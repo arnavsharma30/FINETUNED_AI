@@ -1,0 +1,14 @@
+from random import randint
+
+def f(a, b):
+    c = a + b
+    d = a * b
+    return c, d
+
+x = randint(1, 10)
+y = randint(1, 10)
+
+result = f(x, y)
+
+print(f"Result of adding {x} and {y} is {result[0]}")
+print(f"Result of multiplying {x} and {y} is {result[1]}")

@@ -1,0 +1,13 @@
+import r
+import m
+from random import randint
+
+def c(a, b):
+    return a ** b
+
+x = randint(1, 10)
+y = randint(1, 5)
+
+z = c(x, y)
+
+print(z)

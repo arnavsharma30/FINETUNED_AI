@@ -1,0 +1,17 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+c = a * b
+
+d = a + b
+
+e = a - b
+
+f = a / b
+
+print(f"Product: {c}")
+print(f"Sum: {d}")
+print(f"Difference: {e}")
+print(f"Quotient: {f}")

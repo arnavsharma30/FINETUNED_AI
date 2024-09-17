@@ -1,0 +1,37 @@
+import random
+
+def q(a, b):
+    return a + b
+
+def w(c, d):
+    return c * d
+
+def e(x, y):
+    return x / y
+
+def r(g, h):
+    return g - h
+
+def t(z):
+    return z**2
+
+def y(v):
+    return v + 10
+
+if __name__ == "__main__":
+    n = random.randint(1, 100)
+    m = random.randint(1, 100)
+    
+    o = q(n, m)
+    p = w(n, m)
+    s = e(n, m)
+    u = r(n, m)
+    f = t(n)
+    l = y(m)
+    
+    print(f"Addition: {o}")
+    print(f"Multiplication: {p}")
+    print(f"Division: {s}")
+    print(f"Subtraction: {u}")
+    print(f"Square: {f}")
+    print(f"Add 10: {l}")

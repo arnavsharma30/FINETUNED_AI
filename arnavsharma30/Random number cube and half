@@ -1,0 +1,8 @@
+from random import randint
+
+def U():
+    n = randint(1, 100)
+    s = n ** 3 + n // 2
+    return s
+
+print(U())

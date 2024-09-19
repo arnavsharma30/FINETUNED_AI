@@ -1,0 +1,11 @@
+import random
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+def gcd(x, y):
+    while y != 0:
+        x, y = y, x % y
+    return x
+
+result = gcd(a, b)
+print(f"The GCD of {a} and {b} is {result}")

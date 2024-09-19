@@ -1,0 +1,14 @@
+import random
+
+def g(x):
+    a = x * random.randint(1, 10)
+    b = x / random.randint(1, 10)
+    c = x + random.randint(1, 10)
+    d = x - random.randint(1, 10)
+    
+    if a > b:
+        return c * d
+    else:
+        return c / d
+
+print(g(5))

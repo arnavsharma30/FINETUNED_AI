@@ -1,0 +1,11 @@
+import random
+
+def e(a, b):
+    return a ** b
+
+x = random.randint(1, 10)
+y = random.randint(1, 5)
+
+z = e(x, y)
+
+print(z)

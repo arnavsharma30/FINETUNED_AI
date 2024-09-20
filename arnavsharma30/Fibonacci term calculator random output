@@ -1,0 +1,12 @@
+import random
+
+def t(x):
+    if x == 0:
+        return 0
+    elif x == 1:
+        return 1
+    else:
+        return t(x-1) + t(x-2)
+
+n = random.randint(5, 15)
+print(f"The {n}th term in the Fibonacci sequence is: {t(n)}")

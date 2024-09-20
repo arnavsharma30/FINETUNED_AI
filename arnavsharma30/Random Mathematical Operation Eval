@@ -1,0 +1,12 @@
+import random
+
+def u():
+    y = random.randint(0, 100)
+    z = random.randint(0, 100)
+    a = y + z + random.randint(0, 50)
+    b = y * z - random.randint(-10, 10)
+    c = a / b
+
+    return c
+
+print(u())

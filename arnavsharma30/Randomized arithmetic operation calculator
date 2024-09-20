@@ -1,0 +1,11 @@
+import random
+
+x = random.randint(1, 10)
+y = random.randint(1, 10)
+
+if x > y:
+    z = x + y
+else:
+    z = x * y
+
+print(z)

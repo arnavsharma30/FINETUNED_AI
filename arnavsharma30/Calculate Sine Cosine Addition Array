@@ -1,0 +1,9 @@
+import numpy as np
+
+n = 10
+x = np.random.rand(n)
+y = np.random.rand(n)
+
+z = np.sin(x) + np.cos(y)
+
+print(z)

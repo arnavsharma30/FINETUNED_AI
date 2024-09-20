@@ -1,0 +1,12 @@
+import random
+
+def s(x, y):
+    r = random.randint(x, y)
+    return r
+
+a = s(1, 100)
+b = s(1, 100)
+
+c = a + b
+
+print(c)

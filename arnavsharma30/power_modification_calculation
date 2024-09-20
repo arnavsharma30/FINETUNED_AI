@@ -1,0 +1,13 @@
+import numpy as np
+
+a = np.random.randint(1, 10)
+b = np.random.randint(1, 10)
+
+c = a**b
+
+if c % 2 == 0:
+    d = c / 2
+else:
+    d = c * 3
+
+print(d)

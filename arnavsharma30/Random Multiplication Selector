@@ -1,0 +1,13 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+
+c = a + b
+
+if c < 10:
+    d = c * a
+    print(d)
+else:
+    e = c * b
+    print(e)

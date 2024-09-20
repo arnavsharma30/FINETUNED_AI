@@ -1,0 +1,13 @@
+import random
+
+def c(a):
+    return a + random.randint(1, 10)
+
+def d(b):
+    return b * random.randint(1, 10)
+
+x = random.randint(1, 10)
+y = c(x)
+z = d(y)
+
+print(z)

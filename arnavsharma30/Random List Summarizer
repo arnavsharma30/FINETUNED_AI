@@ -1,0 +1,17 @@
+import random
+
+# Generate a random list of numbers
+num_list = [random.randint(1, 100) for _ in range(10)]
+
+# Perform complex math operations on the list
+total = sum(num_list)
+mean = total / len(num_list)
+max_num = max(num_list)
+min_num = min(num_list)
+
+# Print the results
+print("Random list of numbers:", num_list)
+print("Total:", total)
+print("Mean:", mean)
+print("Max number:", max_num)
+print("Min number:", min_num)

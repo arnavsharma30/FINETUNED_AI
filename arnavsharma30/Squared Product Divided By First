@@ -1,0 +1,10 @@
+a = input("Enter a number: ")
+b = input("Enter another number: ")
+
+c = int(a) * int(b)
+
+d = c ** 2
+
+e = d / int(a)
+
+print(f"The result is: {e}")

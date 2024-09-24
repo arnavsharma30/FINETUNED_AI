@@ -1,0 +1,9 @@
+import random
+from math import sqrt
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+result = sqrt(x) + abs(y)
+
+print(result)

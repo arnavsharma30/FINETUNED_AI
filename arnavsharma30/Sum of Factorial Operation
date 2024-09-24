@@ -1,0 +1,17 @@
+import random
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+def s(n):
+    if n == 0:
+        return 1
+    else:
+        return n * s(n-1)
+
+def p(a, b):
+    return a + b
+
+z = p(s(x), s(y))
+
+print(z)

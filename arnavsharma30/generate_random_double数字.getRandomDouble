@@ -1,0 +1,8 @@
+import random
+
+def u():
+    n = random.randint(1, 100)
+    r = n * 2
+    print(r)
+
+u()

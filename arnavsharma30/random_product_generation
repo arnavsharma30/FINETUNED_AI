@@ -1,0 +1,10 @@
+import random
+
+def q():
+    x = random.randint(1, 100)
+    y = random.randint(1, 100)
+    z = x * y
+
+    return z
+
+print(q())

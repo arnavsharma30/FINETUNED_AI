@@ -1,0 +1,12 @@
+import random 
+
+def u(x, y):
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    if x > y:
+        c = a * x
+    else:
+        c = b * y
+    return c
+
+print(u(3, 5))

@@ -1,0 +1,26 @@
+import random
+
+def x(a, b):
+    return a * b
+
+def y(c, d):
+    return c + d
+
+def z(e):
+    return e ** 2
+
+def w(f, g):
+    return f / g
+
+num1 = random.randint(1, 10)
+num2 = random.randint(1, 10)
+
+result1 = x(num1, num2)
+result2 = y(num1, num2)
+result3 = z(num1)
+result4 = w(num1, num2)
+
+print(result1)
+print(result2)
+print(result3)
+print(result4)

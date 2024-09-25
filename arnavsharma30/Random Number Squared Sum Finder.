@@ -1,0 +1,10 @@
+import random as r
+
+def g():
+    x = r.randint(1, 10)
+    y = r.randint(1, 10)
+    z = r.randint(1, 10)
+    a = x ** 2 + y ** 2 + z ** 2
+    print(f"Result: {a}")
+
+g()

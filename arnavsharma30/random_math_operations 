@@ -1,0 +1,13 @@
+import random
+
+def u():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    a = x + y
+    b = x - y
+    c = x * y
+    d = x / y
+    e = x ** y
+    return a, b, c, d, e
+
+print(u())

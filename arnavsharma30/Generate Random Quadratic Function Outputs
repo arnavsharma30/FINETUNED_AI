@@ -1,0 +1,10 @@
+import random
+
+def f(x):
+    return x ** 2 + 3 * x + 2
+
+nums = [random.randint(1, 100) for _ in range(10)]
+results = [f(num) for num in nums]
+
+print("Random numbers:", nums)
+print("Results:", results)

@@ -1,0 +1,14 @@
+import random
+
+def unique_code():
+    n = random.randint(1, 10)
+    x = random.randint(1, 10)
+
+    if n < 5:
+        result = x + n
+    else:
+        result = x * n
+
+    return result
+
+print(unique_code())

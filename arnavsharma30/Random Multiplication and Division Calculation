@@ -1,0 +1,11 @@
+import random
+
+def g():
+    h = random.randint(1, 10)
+    i = random.randint(1, 10)
+    j = h * i
+    k = j + h - i
+    l = k / h
+    return l
+
+print(g())

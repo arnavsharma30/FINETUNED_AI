@@ -1,0 +1,18 @@
+import random
+
+def s(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+def p():
+    num = random.randint(1, 100)
+    if s(num):
+        print(f"{num} is a prime number.")
+    else:
+        print(f"{num} is not a prime number.")
+
+p()

@@ -1,0 +1,14 @@
+import random
+import math
+
+def y(x):
+    return x**2 + 2*x + 1
+
+def z(y):
+    return math.sqrt(y)
+
+a = random.randint(1, 10)
+b = y(a)
+c = z(b)
+
+print(f"The result of the calculation is: {c}")

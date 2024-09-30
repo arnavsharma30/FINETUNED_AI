@@ -1,0 +1,17 @@
+from random import randint
+
+def s(n):
+    if n == 1:
+        return 1
+    else:
+        return n * s(n-1)
+
+def c(a, b):
+    return s(a) / (s(b) * s(a-b))
+
+def u(x):
+    return sum([(-1)**k * c(x, k) * (x + 1)**(x - k) for k in range(x + 1)])
+
+n = randint(1, 10)
+print("Unique random number:", n)
+print("Unique random output:", u(n))

@@ -1,0 +1,20 @@
+import random
+
+def unique_python_code():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    c = random.randint(1, 10)
+    
+    def gcd(x, y):
+        while y:
+            x, y = y, x % y
+        return x
+    
+    def lcm(x, y):
+        return x * y // gcd(x, y)
+    
+    result = lcm(lcm(a, b), c)
+    
+    return result
+
+print(unique_python_code())

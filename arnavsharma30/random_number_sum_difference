@@ -1,0 +1,14 @@
+from random import randint
+
+def d(n):
+    return randint(1, n)
+
+x = d(20)
+y = d(10)
+
+if x > y:
+    z = x + y
+else:
+    z = x - y
+
+print(z)

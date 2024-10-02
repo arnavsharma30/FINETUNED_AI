@@ -1,0 +1,14 @@
+import random
+
+def f(a,b):
+    c = a + b
+    d = a * b
+    e = a / b
+    return c,d,e
+
+x = random.randint(1,100)
+y = random.randint(1,100)
+
+result = f(x,y)
+
+print(result)

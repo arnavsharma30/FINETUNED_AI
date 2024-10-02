@@ -1,0 +1,13 @@
+import random
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+c = random.randint(1, 10)
+
+d = (a * b) / c
+e = (a + b) * c
+f = (a**b) - c
+
+print(d)
+print(e)
+print(f)

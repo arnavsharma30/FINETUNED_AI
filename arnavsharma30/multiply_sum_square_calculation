@@ -1,0 +1,13 @@
+from random import randint
+
+def u():
+    x = randint(1, 100)
+    y = randint(1, 100)
+
+    z = x * y
+
+    a = z * (x + y) 
+
+    return a
+
+print(u())

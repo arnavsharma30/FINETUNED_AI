@@ -1,0 +1,11 @@
+from random import randint
+
+def o(a, b):
+    r = a + b
+    return r
+
+x = randint(1, 100)
+y = randint(1, 100)
+z = o(x, y)
+
+print(z)

@@ -1,0 +1,22 @@
+import random
+
+def x(a, b, c):
+    d = a * b + c
+    e = d / 2
+    f = e ** 2
+    g = f % c
+    h = g + a
+    i = h * b
+    j = i - c
+    k = j / a
+    return k
+
+def y():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    c = random.randint(1, 10)
+    result = x(a, b, c)
+    return result
+
+output = y()
+print(output)

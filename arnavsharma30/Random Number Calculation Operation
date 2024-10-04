@@ -1,0 +1,14 @@
+from random import randint
+
+def r():
+    a = randint(1, 10)
+    b = a * randint(1, 5)
+    c = b + randint(1, 10)
+
+    d = c - randint(1, 5)
+    e = d / a
+    f = e ** 2
+
+    return f
+
+print(r())

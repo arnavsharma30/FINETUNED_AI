@@ -1,0 +1,21 @@
+import random
+
+def f(a):
+    b = a * 2
+    c = b + 5
+    d = c / 3
+    e = a + d
+    return e
+
+def g(x, y):
+    z = x ** y
+    return z
+
+num1 = random.randint(1, 10)
+num2 = random.randint(1, 5)
+
+result1 = f(num1)
+result2 = g(num1, num2)
+
+print(result1)
+print(result2)

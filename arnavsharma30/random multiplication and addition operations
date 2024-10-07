@@ -1,0 +1,10 @@
+import random
+
+a = random.randint(1, 100)
+b = random.randint(1, 100)
+
+c = a * b
+d = a + b
+
+print("The product of", a, "and", b, "is", c)
+print("The sum of", a, "and", b, "is", d)

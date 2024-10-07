@@ -1,0 +1,9 @@
+import random
+
+def f(x):
+    return x**2 + 2*x + 1
+
+n = random.randint(1, 100)
+result = f(n)
+
+print("The result of f(", n, ") is:", result)

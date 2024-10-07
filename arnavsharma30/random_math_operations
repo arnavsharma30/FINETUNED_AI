@@ -1,0 +1,17 @@
+import random
+
+def r():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    c = a + b
+    d = a * b
+    e = a ** b
+    f = a / b
+    return c, d, e, f
+
+x, y, z, w = r()
+
+print(f"Sum: {x}")
+print(f"Product: {y}")
+print(f"Exponentiation: {z}")
+print(f"Division: {w}")

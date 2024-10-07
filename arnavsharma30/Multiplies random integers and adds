@@ -1,0 +1,15 @@
+import random
+
+def x(a, b):
+    return a + b
+
+def y(c, d):
+    return c * d
+
+num1 = random.randint(1, 10)
+num2 = random.randint(1, 10)
+
+result = x(num1, num2)
+final_result = y(result, num1)
+
+print(final_result)

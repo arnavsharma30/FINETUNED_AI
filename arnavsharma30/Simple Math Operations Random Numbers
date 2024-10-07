@@ -1,0 +1,28 @@
+import random
+
+def x(a, b):
+    c = a * b
+    return c
+
+def y(a, b):
+    c = a ** b
+    return c
+
+def z(a, b):
+    c = a + b
+    return c
+
+def w():
+    d = random.randint(1, 10)
+    return d
+
+e = w()
+f = w()
+
+g = x(e, f)
+h = y(e, f)
+i = z(e, f)
+
+print(g)
+print(h)
+print(i)

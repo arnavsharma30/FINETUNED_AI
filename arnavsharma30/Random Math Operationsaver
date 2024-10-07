@@ -1,0 +1,14 @@
+import random
+import math
+
+a = random.randint(1, 10)
+b = random.randint(1, 10)
+c = random.randint(1, 10)
+
+x = math.sqrt(a**2 + b**2)
+y = math.pow(c, 2)
+z = (a + b + c) / 3
+
+print("The square root of the sum of squared numbers a and b is:", x)
+print("c squared is:", y)
+print("The average of a, b, and c is:", z)

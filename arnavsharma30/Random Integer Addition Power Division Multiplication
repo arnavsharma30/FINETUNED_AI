@@ -1,0 +1,16 @@
+import random
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+z = x + y
+print(z)
+
+s = x ** y
+print(s)
+
+q = x / y
+print(q)
+
+r = x * y
+print(r)

@@ -1,0 +1,9 @@
+from random import randint
+
+def f(x):
+    return x**2 + 3*x - 5
+
+num = randint(1, 10)
+result = f(num)
+
+print(result)

@@ -1,0 +1,20 @@
+import random
+
+def unique_code():
+    x = random.randint(1, 10)
+    y = random.randint(1, 10)
+    z = x + y
+
+    if z % 2 == 0:
+        a = random.choice(['even', 'odd'])
+    else:
+        a = random.choice(['positive', 'negative'])
+
+    if z % 3 == 0:
+        b = random.choice(['multiple of 3', 'not a multiple of 3'])
+    else:
+        b = random.choice(['divisible by 5', 'not divisible by 5'])
+
+    return x, y, z, a, b
+
+print(unique_code())

@@ -1,0 +1,13 @@
+import random
+
+x = random.randint(1, 100)
+y = random.randint(1, 100)
+
+z = x + y
+print(z)
+
+a = random.random()
+b = random.random()
+
+c = a * b
+print(c)

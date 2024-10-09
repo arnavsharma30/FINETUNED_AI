@@ -1,0 +1,10 @@
+import random
+
+def f():
+    x = random.randint(1, 100)
+    y = random.randint(1, 100)
+    z = x * y + (x + y)
+
+    print(z)
+
+f()

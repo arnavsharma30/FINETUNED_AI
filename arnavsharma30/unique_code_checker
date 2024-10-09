@@ -1,0 +1,17 @@
+import random
+
+def unique_code():
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    
+    c = a * b
+    d = a + b
+
+    e = c / d
+
+    if e > 5:
+        print("This code is unique!")
+    else:
+        print("This code is not unique.")
+
+unique_code()

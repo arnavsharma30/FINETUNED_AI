@@ -1,0 +1,19 @@
+import numpy as np
+
+def rnd_py_code():
+    a = np.random.randint(1, 10)
+    b = np.random.randint(1, 10)
+    c = np.random.randint(1, 10)
+
+    d = a + b * c
+
+    e = np.sqrt(d)
+
+    f = np.exp(e)
+
+    g = np.sin(f)
+
+    return g
+
+result = rnd_py_code()
+print(result)

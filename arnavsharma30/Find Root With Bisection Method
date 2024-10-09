@@ -1,0 +1,30 @@
+import random
+
+def q(x):
+    return x**3 - 2*x**2 + 4*x - 7
+
+def r(x):
+    return x**2 + 3*x - 5
+
+def bisection_method(a, b, f):
+    while abs(a - b) > 0.0001:
+        c = (a + b) / 2
+        if f(a) * f(c) < 0:
+            b = c
+        else:
+            a = c
+    return c
+
+a = random.randint(-10, 10)
+b = random.randint(-10, 10)
+
+root = bisection_method(a, b, q)
+
+print("Root of q(x) between {} and {} is: {}".format(a, b, root))
+
+a = random.randint(-10, 10)
+b = random.randint(-10, 10)
+
+root = bisection_method(a, b, r)
+
+print("Root of r(x) between {} and {} is: {}".format(a, b, root)

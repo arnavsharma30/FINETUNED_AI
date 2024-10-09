@@ -1,0 +1,12 @@
+import numpy as np
+
+a = np.random.randint(1, 10)
+b = np.random.randint(1, 10)
+
+c = a * b
+
+d = np.sum(np.array([a, b, c]))
+
+e = np.sqrt(d)
+
+print(f"The result of the calculation is: {e}")
